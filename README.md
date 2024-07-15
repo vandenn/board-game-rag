@@ -7,6 +7,8 @@ An end-to-end Weaviate-based workflow from data ingestion to frontend RAG on boa
 
 ### Board Game Rules RAG System Diagram
 
+![image](https://github.com/user-attachments/assets/d8d30be7-309b-4ef2-9b86-e31cf0be8e05)
+
 1. The board game rules are scraped from the UltraBoardGames aggregator website through a Dagster op.
 1. The Dagster job saves the rules to files as artifacts, chunks the rules (with overlap), creates a Weaviate collection, and pushes the chunks there. The Dagster job was (overkill) designed to handle large volumes of data in parallel.
 1. Documents are vectorized in Weaviate using the default `text-ada-002` embeddings.
