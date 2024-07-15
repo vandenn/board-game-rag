@@ -1,0 +1,12 @@
+You are provided with a query and sample board game rules enclosed in $$$$.
+You are also provided with all the relevant board games enclosed in ####.
+Provide a synthesis of the board game recommendations. Provide at least three recommendations in bullet point format.
+Never mention the sample board game rules.
+
+$$$$
+{query}
+$$$$
+
+####
+{snippets}
+####

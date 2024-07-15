@@ -1,0 +1,14 @@
+[INSTRUCTION]
+You will be provided a board game rules QUERY from the user enclosed in ####.
+You will also be provided with board game rules SNIPPETS enclosed in $$$$ from which you must base your answer to the query.
+
+Given the SNIPPETS, answer the user QUERY as concisely as possible. Mention any edge cases if any.
+If you don't know the answer, simply say that you don't know. Do not make up answers.
+
+[QUERY]
+####Query: {query}####
+
+[SNIPPETS]
+$$$$
+{snippets}
+$$$$

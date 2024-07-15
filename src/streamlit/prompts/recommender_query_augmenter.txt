@@ -1,0 +1,7 @@
+[INSTRUCTION]
+Augment the following board game recommendation query by adding sample board game rules at the end of it that are typical of the genre or input that was queried. For example, if the query asks for "euro game recommendations", append sample rules typical of euro games.
+
+[QUERY]
+{query}
+
+[REVISED QUERY]
