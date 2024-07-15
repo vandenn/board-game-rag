@@ -3,7 +3,7 @@
 
 ## Overview
 
-An end-to-end Weaviate-based workflow from data ingestion to frontend RAG on board game rules.
+An end-to-end RAG workflow from data ingestion to frontend querying on board game rules.
 
 ### Board Game Rules RAG System Diagram
 
